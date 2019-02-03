@@ -1,0 +1,67 @@
+\documentclass[12pt, spanish, letterpaper]{article}
+
+\usepackage{cite}
+\usepackage{gensymb}
+\usepackage[activeacute,spanish,es-lcroman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\title{Ambiente de Programación en Jupyter.}
+\author{Sealtiel Gallardo Martínez}
+\date{2 de Febrero de 2019}
+
+\begin{document}
+
+\maketitle
+
+A diferencia de otros lenguajes de programación, Python es uno de los mas populares, y tiene sus razones; desde su lanzamiento en 1991 no ha cambiado mucho respecto a los principios de los desarrolladores y brinda muchas opciones que lo hacen, de cierta manera, multidisciplinario. 
+\\
+Gracias a su saludable y activa comunidad en conjunto con los grandes patrocinadores se han desarrollado varios programas sin ánimo de lucro, como Project Jupyter, Jupyter Lab y sus variantes.
+\\
+Jupyter ofrece una interfaz muy interactiva y fácil de utilizar en comparación con la interfaz de los compiladores de Fortran que previamente habíamos utilizado en cursos de programación. En lo personal, me parece un programa muy práctico y sencillo de utilzar ya sea para investigación científica o trabajos en otros ámbitos.Todos estas ventajas en conjunto con el limpio ambiente de programación que ofrece Python crean un gran espacio de trabajo orientado al alto rendimiento y obtener el máximo de cada usuario.
+\\
+Como ya está dicho, Python ofrece muchas opciones que podemos importar desde las librerías oficiales. Una de estas se llama Matplotlib, y nos ayuda a realizar gráficos con muchas opciones de configuración y diseño que lo hacen ver muy profesional con comandos sencillos y siempre con la opción de tener la ayuda de los interminables foros que abundan en internet. En comparación con Gnuplot, me pareció mucho mejor y mas eficiente; en Gnuplot nos teníamos que limitar a crear un archivo de datos que el programa graficador debe leer y esto resulta caro al momento de realizar el código. Matplotlib realiza esto de una manera más directa que nos ayuda a agilizar el proceso de graficación.
+\\
+%Al momento de realizar la actividad, me fui dando cuenta que Python es un ambiente diferente donde te sientes capaz de realizar cualquier actividad computacional sin gran dificultad y con muchas opciones diferentes de uso, por lo que cada usuario utiliza este lenguaje a su gusto, algo que en Fortran está más limitado.\\
+
+En la acitividad 2 de la materia Física Computacional realizamos el análisis de un programa que toma datos meteoerlógicos de un lugar elegido dentro de la República Mexicana para poder visualizar estos dentro de gráficas y obtnener información extra como el promedio de cada parámetro. La actividad parecía muy densa pero con la ayuda de un repositorio que, básicamente, ya había realizado esto sirvió de guía para poder envolvernos un poco más en este ambiente de programación.
+\\
+Los resultados obtenidos fueron interesantes, ya que con la ayuda de las gráficas pudimos visualizar la información de una mejor manera. Por ejemplo, la siguiente imágen nos muestra como varía la temperatura de la zona respecto al tiempo:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=.7]{temp.png}
+    \caption{Gráfica que representa la variación de la temperatura.}
+    \label{fig:my_labe}
+\end{figure}
+
+
+También podemos analizar mas de un parámetro comparado respecto al tiempo, por ejemplo la humedad relativa y la temperatura:
+\\
+\\
+\\
+\\
+\\
+\\
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[scale=.7]{temphr.png}
+    \caption{Gráfica que representa la variación de la temperatura y la huemdad relativa.}
+    \label{fig:my_label}
+\end{figure}
+
+Al momento de realizar la actividad, me fui dando cuenta que Python es un ambiente diferente donde te sientes capaz de realizar cualquier actividad computacional sin gran dificultad y con muchas opciones diferentes de uso, por lo que cada usuario utiliza este lenguaje a su gusto, algo que en Fortran está más limitado. Espero poder sacarle el máximo provecho a estas herramientas en un futuro próximo.
+
+
+
+%\bibliographystyle{plain}
+%\bibliography{M335}
+
+\end{document}
